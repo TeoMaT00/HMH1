@@ -1,0 +1,57 @@
+body{
+    background-image:url(pref_background.png);
+    background-size: cover;
+    
+}
+.cardform {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  height: auto;
+  margin: 50px 50px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h5{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+button {
+
+  background-color: #179fab;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px auto;
+ 
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.cardrow{
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+
+.col{
+  width:33%;
+}
+
+
+

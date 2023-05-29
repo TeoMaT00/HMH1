@@ -1,0 +1,64 @@
+body {
+    background-image: url(home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.cardform {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    height: auto;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+form label {
+    color: #179fab;
+    font-size: 20px;
+    margin: 15px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+
+}
+
+button {
+
+    background-color: #179fab;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px auto;
+
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+

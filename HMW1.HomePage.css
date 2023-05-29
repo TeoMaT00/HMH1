@@ -1,0 +1,78 @@
+body{
+    background-image:url(home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    color:  #3b3480;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+p{
+    color:  #3b3480;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.cardform {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    height: auto;
+    margin: 50px auto;
+    background-color: white;
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#but{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*
+button, a{
+    background-color: blue;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    color: antiquewhite;
+    margin-top: 150px;
+    margin: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}*/
+a{
+    text-decoration: none;
+    color: white;
+}
+button {
+
+    background-color: #3b3480;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px;
+    width: 100px;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #7175a6;
+    color: white;
+}
+

@@ -1,0 +1,112 @@
+body {
+    background-image: url(search_background.png);
+    background-size: cover;
+
+}
+
+button {
+
+    background-color: #179fab;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px auto;
+    width: 100px;
+    height: 50px;
+
+
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.cardrow {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+
+.cardform {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    height: auto;
+    margin: 50px 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 33%
+}
+
+h1 {
+    text-shadow: 1px 1px black;
+    color: #179fab;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    text-shadow: 1px 1px black;
+    color: #179fab;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 6px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul button {
+    width: 60px;
+    font-size: 11px;
+}
+
+#cardDash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    max-width: auto;
+    height: auto;
+    margin: 50px auto;
+    background-color: #ffffff;
+    color: #179fab;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 25px;
+}

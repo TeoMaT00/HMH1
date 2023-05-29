@@ -1,0 +1,96 @@
+body {
+    background-image: url(sfondo_sito1.png);
+    background-size: contain;
+    
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 60px;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+
+p {
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+
+
+#cardDash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    max-width: auto;
+    height: auto;
+    margin: 50px auto;
+    background-color: #ac68fc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardform {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    height: auto;
+    margin: 50px 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cardrow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2 {
+    text-shadow: 1px 1px black;
+    color: #ac68fc;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    text-shadow: 1px 1px black;
+    color: #ac68fc;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+
+    background-color: #582ab8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 30px;
+    width: 100px;
+    height: 50px;
+
+}
+
+button:hover {
+    background-color: #ac68fc;
+    color: white;
+}
